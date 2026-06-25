@@ -1,0 +1,639 @@
+{
+    "1": {
+        "nama": "VIP Pass",
+        "harga": 5000,
+        "harga_jual": 4000,
+        "ikon": "🎫",
+        "deskripsi": "VIP 24 Jam. Cooldown semua aktivitas -50%, gaji work +50%.",
+        "usable": true,
+        "type": "vip",
+        "duration": 86400000,
+        "modifier": {
+            "work_bonus": 50,
+            "cooldown_cut": 50
+        },
+        "msg": "🎫 VIP Pass Aktif! Gaji naik 50% dan cooldown berkurang separuh selama 24 Jam!"
+    },
+    "2": {
+        "nama": "Pancingan Kayu",
+        "harga": 500,
+        "harga_jual": 400,
+        "ikon": "🎣",
+        "deskripsi": "Alat dasar yang wajib dimiliki untuk menggunakan fitur /fish.",
+        "usable": false,
+        "type": "tool"
+    },
+    "3": {
+        "nama": "Pancingan Emas",
+        "harga": 1500,
+        "harga_jual": 1200,
+        "ikon": "🔱",
+        "deskripsi": "Pancingan dewa. Meningkatkan peluang mendapat ikan Rare dan Epic sebesar +20% (Pasif).",
+        "usable": false,
+        "type": "tool",
+        "modifier": {
+            "rare_chance": 20
+        }
+    },
+    "4": {
+        "nama": "Umpan Cacing",
+        "harga": 100,
+        "harga_jual": 80,
+        "ikon": "🪱",
+        "deskripsi": "Umpan biasa. Meningkatkan peluang ikan langka sebesar +5% selama 10 menit.",
+        "usable": true,
+        "type": "fish_boost",
+        "duration": 600000,
+        "modifier": {
+            "rare_chance": 5
+        },
+        "msg": "🪱 Umpan dipasang! Peluang ikan langka +5%."
+    },
+    "5": {
+        "nama": "Umpan Premium",
+        "harga": 500,
+        "harga_jual": 400,
+        "ikon": "🍤",
+        "deskripsi": "Umpan kualitas tinggi. Peluang ikan langka +30% selama 15 menit.",
+        "usable": true,
+        "type": "fish_boost",
+        "duration": 900000,
+        "modifier": {
+            "rare_chance": 30
+        },
+        "msg": "🍤 Umpan premium dipasang! Peluang ikan langka +30%."
+    },
+    "6": {
+        "nama": "Kopi Susu",
+        "harga": 100,
+        "harga_jual": 80,
+        "ikon": "☕",
+        "deskripsi": "Minuman penyemangat. Gaji /work meningkat +20% selama 30 menit.",
+        "usable": true,
+        "type": "work_boost",
+        "duration": 1800000,
+        "modifier": {
+            "work_bonus": 20
+        },
+        "msg": "☕ Ahhh mantap! Gaji /work kamu naik 20% selama 30 menit."
+    },
+    "7": {
+        "nama": "Energi Drink",
+        "harga": 300,
+        "harga_jual": 240,
+        "ikon": "⚡",
+        "deskripsi": "Minuman energi. Memangkas semua waktu tunggu (cooldown) sebesar -30% selama 30 menit.",
+        "usable": true,
+        "type": "cooldown_reduce",
+        "duration": 1800000,
+        "modifier": {
+            "cooldown_cut": 30
+        },
+        "msg": "⚡ Ngebut! Cooldown work, fish, mine, dan hunt dikurangi 30%."
+    },
+    "8": {
+        "nama": "Ramuan Exp",
+        "harga": 1200,
+        "harga_jual": 960,
+        "ikon": "🧪",
+        "deskripsi": "Meningkatkan perolehan XP chat sebesar +50% selama 1 jam.",
+        "usable": true,
+        "type": "xp_boost",
+        "duration": 3600000,
+        "modifier": {
+            "xp_bonus": 50
+        },
+        "msg": "🧪 Pikiranmu menjadi tajam! Mendapatkan XP tambahan +50% saat chatting."
+    },
+    "9": {
+        "nama": "Jimat Anti Rampok",
+        "harga": 2000,
+        "harga_jual": 1600,
+        "ikon": "🛡️",
+        "deskripsi": "Mencegah koinmu dicuri oleh command /rob selama 12 jam ke depan.",
+        "usable": true,
+        "type": "shield",
+        "duration": 43200000,
+        "modifier": {
+            "rob_protect": 100
+        },
+        "msg": "🛡️ Jimat diaktifkan! Koinmu aman dari pencuri selama 12 jam."
+    },
+    "10": {
+        "nama": "Tas Kecil",
+        "harga": 1000,
+        "harga_jual": 800,
+        "ikon": "🎒",
+        "deskripsi": "Pasif: Meningkatkan batas penyimpanan inventory sebanyak +10 slot.",
+        "usable": false,
+        "type": "upgrade",
+        "modifier": {
+            "inv_slot": 10
+        }
+    },
+    "11": {
+        "nama": "Tas Besar",
+        "harga": 3000,
+        "harga_jual": 2400,
+        "ikon": "🧳",
+        "deskripsi": "Pasif: Meningkatkan batas penyimpanan inventory sebanyak +30 slot.",
+        "usable": false,
+        "type": "upgrade",
+        "modifier": {
+            "inv_slot": 30
+        }
+    },
+    "12": {
+        "nama": "Pickaxe Kayu",
+        "harga": 750,
+        "harga_jual": 600,
+        "ikon": "⛏️",
+        "deskripsi": "Alat dasar untuk command /mine.",
+        "usable": false,
+        "type": "tool"
+    },
+    "13": {
+        "nama": "Pickaxe Besi",
+        "harga": 2500,
+        "harga_jual": 2000,
+        "ikon": "🔨",
+        "deskripsi": "Alat tambang kokoh. Meningkatkan peluang mendapat Berlian dan Emas +15% (Pasif).",
+        "usable": false,
+        "type": "tool",
+        "modifier": {
+            "rare_chance": 15
+        }
+    },
+    "14": {
+        "nama": "Panah Kayu",
+        "harga": 1000,
+        "harga_jual": 800,
+        "ikon": "🏹",
+        "deskripsi": "Alat dasar untuk menggunakan command /hunt.",
+        "usable": false,
+        "type": "weapon",
+        "stats": {
+            "attack": 12,
+            "defense": 0
+        }
+    },
+    "15": {
+        "nama": "Senapan Berburu",
+        "harga": 4000,
+        "harga_jual": 3200,
+        "ikon": "🔫",
+        "deskripsi": "Senjata ampuh. Peluang mendapat hewan buas/langka +25% (Pasif).",
+        "usable": false,
+        "type": "weapon",
+        "modifier": {
+            "rare_chance": 25
+        },
+        "stats": {
+            "attack": 35,
+            "defense": 0
+        }
+    },
+    "16": {
+        "nama": "Perahu Nelayan",
+        "harga": 8000,
+        "harga_jual": 6400,
+        "ikon": "🚤",
+        "deskripsi": "Pasif: Setiap kali memancing (/fish), kamu mendapat 2 ikan sekaligus.",
+        "usable": false,
+        "type": "tool",
+        "modifier": {
+            "extra_drop": 1
+        }
+    },
+    "17": {
+        "nama": "Peti Misterius",
+        "harga": 2500,
+        "harga_jual": 2000,
+        "ikon": "📦",
+        "deskripsi": "Gacha Box! Gunakan untuk mendapatkan item, alat, atau koin acak.",
+        "usable": true,
+        "type": "gacha_box",
+        "duration": 0,
+        "msg": "📦 Membuka peti misterius..."
+    },
+    "18": {
+        "nama": "Lucky Charm",
+        "harga": 6000,
+        "harga_jual": 4800,
+        "ikon": "🍀",
+        "deskripsi": "Meningkatkan perolehan koin secara acak sebesar +10% hingga +30% dari semua command selama 1 Jam.",
+        "usable": true,
+        "type": "luck_boost",
+        "duration": 3600000,
+        "modifier": {
+            "koin_multiplier_min": 10,
+            "koin_multiplier_max": 30
+        },
+        "msg": "🍀 Dewi Fortuna tersenyum padamu! Semua penghasilan koin meningkat selama 1 Jam."
+    },
+    "19": {
+        "nama": "Kapak Kayu",
+        "harga": 750,
+        "harga_jual": 600,
+        "ikon": "🪓",
+        "deskripsi": "Alat dasar untuk command /chop.",
+        "usable": false,
+        "type": "tool"
+    },
+    "20": {
+        "nama": "Mahkota Lunar",
+        "harga": 100000,
+        "harga_jual": 80000,
+        "ikon": "👑",
+        "deskripsi": "Item koleksi murni. Membuktikan kamu adalah orang terkaya di server.",
+        "usable": false,
+        "type": "collectible"
+    },
+    "21": {
+        "nama": "Potion HP Kecil",
+        "harga": 200,
+        "harga_jual": 150,
+        "ikon": "🧪",
+        "deskripsi": "Botol merah kecil. Memulihkan 50 HP secara instan.",
+        "usable": true,
+        "type": "consumable",
+        "heal": 50,
+        "msg": "🧪 Meminum Potion HP Kecil..."
+    },
+    "22": {
+        "nama": "Potion HP Medium",
+        "harga": 500,
+        "harga_jual": 400,
+        "ikon": "🧪",
+        "deskripsi": "Cairan merah kental. Memulihkan 150 HP secara instan.",
+        "usable": true,
+        "type": "consumable",
+        "heal": 150,
+        "msg": "🧪 Meminum Potion HP Medium..."
+    },
+    "23": {
+        "nama": "Potion HP Besar",
+        "harga": 1500,
+        "harga_jual": 1200,
+        "ikon": "🧪",
+        "deskripsi": "Ramuan merah menyala. Memulihkan 500 HP secara instan.",
+        "usable": true,
+        "type": "consumable",
+        "heal": 500,
+        "msg": "🧪 Meminum Potion HP Besar..."
+    },
+    "24": {
+        "nama": "Potion HP Mega",
+        "harga": 5000,
+        "harga_jual": 4500,
+        "ikon": "💊",
+        "deskripsi": "Kapsul pemulihan medis. Memulihkan 2000 HP secara instan.",
+        "usable": true,
+        "type": "consumable",
+        "heal": 2000,
+        "msg": "💊 Menelan Potion HP Mega..."
+    },
+    "25": {
+        "nama": "Elixir Kehidupan",
+        "harga": 25000,
+        "harga_jual": 20000,
+        "ikon": "🍷",
+        "deskripsi": "Air mata dewi. Memulihkan 10000 HP secara instan.",
+        "usable": true,
+        "type": "consumable",
+        "heal": 10000,
+        "msg": "🍷 Meminum Elixir Kehidupan. Luka-lukamu langsung tertutup!"
+    },
+    "26": {
+        "nama": "Elixir Dewa",
+        "harga": 100000,
+        "harga_jual": 80000,
+        "ikon": "🏺",
+        "deskripsi": "Minuman para dewa. Memulihkan 50000 HP secara instan.",
+        "usable": true,
+        "type": "consumable",
+        "heal": 50000,
+        "msg": "🏺 Meneguk Elixir Dewa. Kamu merasa sangat abadi!"
+    },
+    "27": {
+        "nama": "Ramuan Berserk",
+        "harga": 2000,
+        "harga_jual": 1500,
+        "ikon": "🩸",
+        "deskripsi": "Meningkatkan ATK (Damage) sebesar +25% selama 1 Jam.",
+        "usable": true,
+        "type": "atk_boost",
+        "duration": 3600000,
+        "modifier": {
+            "atk_bonus": 25
+        },
+        "msg": "🩸 Matamu memerah! Seranganmu meningkat drastis selama 1 Jam."
+    },
+    "28": {
+        "nama": "Perisai Kayu",
+        "harga": 1000,
+        "harga_jual": 800,
+        "ikon": "🛡️",
+        "deskripsi": "Perisai sederhana. DEF +10.",
+        "usable": false,
+        "type": "armor",
+        "stats": {
+            "attack": 0,
+            "defense": 10
+        }
+    },
+    "29": {
+        "nama": "Perisai Besi",
+        "harga": 3500,
+        "harga_jual": 2800,
+        "ikon": "🛡️",
+        "deskripsi": "Perisai kokoh. DEF +25.",
+        "usable": false,
+        "type": "armor",
+        "stats": {
+            "attack": 0,
+            "defense": 25
+        }
+    },
+    "30": {
+        "nama": "Perisai Baja",
+        "harga": 8000,
+        "harga_jual": 6400,
+        "ikon": "🛡️",
+        "deskripsi": "Perisai berat. DEF +50.",
+        "usable": false,
+        "type": "armor",
+        "stats": {
+            "attack": 0,
+            "defense": 50
+        }
+    },
+    "31": {
+        "nama": "Perisai Mithril",
+        "harga": 20000,
+        "harga_jual": 16000,
+        "ikon": "🔰",
+        "deskripsi": "Perisai Mithril. DEF +100.",
+        "usable": false,
+        "type": "armor",
+        "stats": {
+            "attack": 0,
+            "defense": 100
+        }
+    },
+    "32": {
+        "nama": "Aegis Lunar",
+        "harga": 75000,
+        "harga_jual": 60000,
+        "ikon": "🌙",
+        "deskripsi": "Perisai legendaris. DEF +250 dan Damage Reduction +15%.",
+        "usable": false,
+        "type": "armor",
+        "modifier": {
+            "damage_reduce": 15
+        },
+        "stats": {
+            "attack": 0,
+            "defense": 250
+        }
+    },
+    "33": {
+        "nama": "Pedang Kayu",
+        "harga": 800,
+        "harga_jual": 600,
+        "ikon": "🗡️",
+        "deskripsi": "Pedang latihan. ATK +8.",
+        "usable": false,
+        "type": "weapon",
+        "stats": {
+            "attack": 8,
+            "defense": 0
+        }
+    },
+    "34": {
+        "nama": "Pedang Besi",
+        "harga": 3000,
+        "harga_jual": 2400,
+        "ikon": "⚔️",
+        "deskripsi": "Pedang standar petualang. ATK +25.",
+        "usable": false,
+        "type": "weapon",
+        "stats": {
+            "attack": 25,
+            "defense": 0
+        }
+    },
+    "35": {
+        "nama": "Claymore Baja",
+        "harga": 9000,
+        "harga_jual": 7200,
+        "ikon": "⚔️",
+        "deskripsi": "Pedang besar. ATK +55.",
+        "usable": false,
+        "type": "weapon",
+        "stats": {
+            "attack": 55,
+            "defense": 0
+        }
+    },
+    "36": {
+        "nama": "Pedang Mithril",
+        "harga": 25000,
+        "harga_jual": 20000,
+        "ikon": "💠",
+        "deskripsi": "Pedang langka dengan ketajaman luar biasa. ATK +120.",
+        "usable": false,
+        "type": "weapon",
+        "stats": {
+            "attack": 120,
+            "defense": 0
+        }
+    },
+    "37": {
+        "nama": "Dragon Slayer",
+        "harga": 75000,
+        "harga_jual": 60000,
+        "ikon": "🐉",
+        "deskripsi": "Pedang pembunuh naga. ATK +250 dan Damage Boss +25%.",
+        "usable": false,
+        "type": "weapon",
+        "modifier": {
+            "boss_damage": 25
+        },
+        "stats": {
+            "attack": 250,
+            "defense": 0
+        }
+    },
+    "38": {
+        "nama": "Crossbow Besi",
+        "harga": 6000,
+        "harga_jual": 4800,
+        "ikon": "🏹",
+        "deskripsi": "Crossbow kuat. ATK +40 dan Rare Hunt +10%.",
+        "usable": false,
+        "type": "weapon",
+        "modifier": {
+            "rare_chance": 10
+        },
+        "stats": {
+            "attack": 40,
+            "defense": 0
+        }
+    },
+    "39": {
+        "nama": "Sniper Lunar",
+        "harga": 120000,
+        "harga_jual": 96000,
+        "ikon": "🎯",
+        "deskripsi": "Senjata elit pemburu. ATK +400 dan Rare Hunt +40%.",
+        "usable": false,
+        "type": "weapon",
+        "modifier": {
+            "rare_chance": 40
+        },
+        "stats": {
+            "attack": 400,
+            "defense": 0
+        }
+    },
+    "40": {
+        "nama": "Armor Kulit",
+        "harga": 2500,
+        "harga_jual": 2000,
+        "ikon": "🥋",
+        "deskripsi": "Armor ringan. DEF +20.",
+        "usable": false,
+        "type": "armor",
+        "stats": {
+            "attack": 0,
+            "defense": 20
+        }
+    },
+    "41": {
+        "nama": "Armor Besi",
+        "harga": 8000,
+        "harga_jual": 6400,
+        "ikon": "🦾",
+        "deskripsi": "Armor petualang. DEF +60.",
+        "usable": false,
+        "type": "armor",
+        "stats": {
+            "attack": 0,
+            "defense": 60
+        }
+    },
+    "42": {
+        "nama": "Armor Dragon",
+        "harga": 100000,
+        "harga_jual": 80000,
+        "ikon": "🐲",
+        "deskripsi": "Armor legendaris. DEF +300 dan HP +5000.",
+        "usable": false,
+        "type": "armor",
+        "modifier": {
+            "hp_bonus": 5000
+        },
+        "stats": {
+            "attack": 0,
+            "defense": 300
+        }
+    },
+    "43": {
+        "nama": "Cincin Keberuntungan",
+        "harga": 12000,
+        "harga_jual": 9600,
+        "ikon": "💍",
+        "deskripsi": "Rare Drop +10%.",
+        "usable": false,
+        "type": "accessory",
+        "modifier": {
+            "rare_chance": 10
+        }
+    },
+    "44": {
+        "nama": "Kalung Raja",
+        "harga": 50000,
+        "harga_jual": 40000,
+        "ikon": "📿",
+        "deskripsi": "Bonus seluruh pendapatan +15%.",
+        "usable": false,
+        "type": "accessory",
+        "modifier": {
+            "income_bonus": 15
+        }
+    },
+    "45": {
+        "nama": "Golden Ticket",
+        "harga": 15000,
+        "harga_jual": 12000,
+        "ikon": "🎟️",
+        "deskripsi": "Gunakan untuk menukar dengan hadiah sangat langka (Epic Gacha).",
+        "usable": true,
+        "type": "gacha_premium",
+        "duration": 0,
+        "msg": "🎟️ Menukarkan tiket emas..."
+    },
+    "46": {
+        "nama": "Kapak Besi",
+        "harga": 2500,
+        "harga_jual": 2000,
+        "ikon": "🪓",
+        "deskripsi": "Kapak kuat untuk menebang pohon. Rare Wood +10%.",
+        "usable": false,
+        "type": "tool",
+        "modifier": {
+            "rare_chance": 10
+        }
+    },
+    "47": {
+        "nama": "Kapak Baja",
+        "harga": 7000,
+        "harga_jual": 5600,
+        "ikon": "🪓",
+        "deskripsi": "Kapak baja tajam. Rare Wood +20%.",
+        "usable": false,
+        "type": "tool",
+        "modifier": {
+            "rare_chance": 20
+        }
+    },
+    "48": {
+        "nama": "Kapak Mithril",
+        "harga": 20000,
+        "harga_jual": 16000,
+        "ikon": "⚒️",
+        "deskripsi": "Kapak Mithril. Rare Wood +35%.",
+        "usable": false,
+        "type": "tool",
+        "modifier": {
+            "rare_chance": 35
+        }
+    },
+    "49": {
+        "nama": "Kapak Naga",
+        "harga": 60000,
+        "harga_jual": 48000,
+        "ikon": "🐉",
+        "deskripsi": "Terbuat dari tulang naga. Rare Wood +50% dan hasil chop +1.",
+        "usable": false,
+        "type": "tool",
+        "modifier": {
+            "rare_chance": 50,
+            "extra_drop": 1
+        }
+    },
+    "50": {
+        "nama": "Kapak Lunar",
+        "harga": 150000,
+        "harga_jual": 120000,
+        "ikon": "🌙",
+        "deskripsi": "Kapak legendaris Lunar. Rare Wood +75% dan hasil chop +2.",
+        "usable": false,
+        "type": "tool",
+        "modifier": {
+            "rare_chance": 75,
+            "extra_drop": 2     
+        }
+    }
+}

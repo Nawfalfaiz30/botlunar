@@ -1,0 +1,92 @@
+{
+    "1": {
+        "name": "🌳 Treant Kuno Raksasa",
+        "hp": 200,
+        "atk": 35,
+        "def": 10,
+        "coin": 2000,
+        "xp": 500,
+        "drop": "kayu_berlian"
+    },
+    "2": {
+        "name": "🌋 Golem Magma",
+        "hp": 500,
+        "atk": 65,
+        "def": 30,
+        "coin": 5000,
+        "xp": 1200,
+        "drop": "batu_neraka"
+    },
+    "3": {
+        "name": "🐉 Naga Penguasa Langit",
+        "hp": 1500,
+        "atk": 120,
+        "def": 60,
+        "coin": 15000,
+        "xp": 5000,
+        "drop": "sisik_naga_murni"
+    },
+    "4": {
+        "name": "🏜️ Penjaga Gurun Pasir",
+        "hp": 3000,
+        "atk": 200,
+        "def": 100,
+        "coin": 30000,
+        "xp": 10000,
+        "drop": "topaz_raksasa"
+    },
+    "5": {
+        "name": "❄️ Yeti Penjaga Tundra",
+        "hp": 6000,
+        "atk": 350,
+        "def": 200,
+        "coin": 60000,
+        "xp": 20000,
+        "drop": "kristal_es_abadi"
+    },
+    "6": {
+        "name": "🔥 Salamander Api Raksasa",
+        "hp": 12000,
+        "atk": 600,
+        "def": 350,
+        "coin": 120000,
+        "xp": 40000,
+        "drop": "jantung_magma"
+    },
+    "7": {
+        "name": "💀 Raja Golem Tulang",
+        "hp": 25000,
+        "atk": 1000,
+        "def": 500,
+        "coin": 250000,
+        "xp": 80000,
+        "drop": "tulang_kuno_raksasa"
+    },
+    "8": {
+        "name": "🧚 Ratu Peri Hutan",
+        "hp": 50000,
+        "atk": 1800,
+        "def": 800,
+        "coin": 500000,
+        "xp": 150000,
+        "drop": "inti_kayu_peri"
+    },
+    "9": {
+        "name": "☁️ Titan Langit Nimbus",
+        "hp": 100000,
+        "atk": 3000,
+        "def": 1500,
+        "coin": 1000000,
+        "xp": 300000,
+        "drop": "bulu_sayap_malaikat"
+    },
+    "10": {
+        "name": "🌑 Entitas Void Neraka",
+        "hp": 250000,
+        "atk": 6000,
+        "def": 3000,
+        "coin": 2500000,
+        "xp": 750000,
+        "drop": "inti_dimensi_gelap"
+    }
+}

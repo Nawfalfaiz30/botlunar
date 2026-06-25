@@ -1,0 +1,12 @@
+{
+    "1": [ { "id": "pohon_oak", "nama": "Pohon Oak", "drops": [{ "id": "kayu_biasa", "chance": 100 }] } ],
+    "2": [ { "id": "pohon_pinus", "nama": "Pohon Pinus", "drops": [{ "id": "kayu_biasa", "chance": 40 }, { "id": "kayu_pinus", "chance": 60 }] } ],
+    "3": [ { "id": "pohon_cemara", "nama": "Pohon Cemara", "drops": [{ "id": "kayu_pinus", "chance": 40 }, { "id": "kayu_cemara", "chance": 60 }] } ],
+    "4": [ { "id": "pohon_kaktus", "nama": "Pohon Kaktus", "drops": [{ "id": "serat_kaktus", "chance": 100 }] } ],
+    "5": [ { "id": "pohon_beku", "nama": "Pohon Tundra", "drops": [{ "id": "kayu_cemara", "chance": 40 }, { "id": "kayu_beku", "chance": 60 }] } ],
+    "6": [ { "id": "pohon_magma", "nama": "Pohon Magma", "drops": [{ "id": "kayu_beku", "chance": 40 }, { "id": "kayu_magma", "chance": 60 }] } ],
+    "7": [ { "id": "pohon_kuno", "nama": "Pohon Reruntuhan", "drops": [{ "id": "kayu_magma", "chance": 40 }, { "id": "kayu_kuno", "chance": 60 }] } ],
+    "8": [ { "id": "pohon_peri", "nama": "Pohon Peri", "drops": [{ "id": "kayu_kuno", "chance": 30 }, { "id": "kayu_peri", "chance": 70 }] } ],
+    "9": [ { "id": "pohon_langit", "nama": "Pohon Awan", "drops": [{ "id": "kayu_peri", "chance": 40 }, { "id": "kayu_langit", "chance": 60 }] } ],
+    "10": [ { "id": "pohon_neraka", "nama": "Pohon Kegelapan", "drops": [{ "id": "kayu_langit", "chance": 30 }, { "id": "kayu_neraka", "chance": 70 }] } ]
+}

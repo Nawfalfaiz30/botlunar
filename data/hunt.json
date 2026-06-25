@@ -1,0 +1,37 @@
+{
+    "1": [
+        { "id": "burung", "nama": "🦅 Burung Liar", "hp": 15, "atk": 4, "def": 1, "xp": 10, "coin": 15, "drops": [{ "id": "bulu_burung", "chance": 70 }, { "id": "daging_biasa", "chance": 30 }] },
+        { "id": "rusa", "nama": "🦌 Rusa Hutan", "hp": 30, "atk": 6, "def": 3, "xp": 20, "coin": 35, "drops": [{ "id": "daging_biasa", "chance": 60 }, { "id": "tanduk_rusa", "chance": 40 }] },
+        { "id": "babi_hutan", "nama": "🐗 Babi Hutan", "hp": 50, "atk": 12, "def": 5, "xp": 35,  "coin": 60, "drops": [{ "id": "daging_babi", "chance": 80 }, { "id": "gading_babi", "chance": 20 }] }
+    ],
+    "2": [
+        { "id": "serigala", "nama": "🐺 Serigala Kelabu", "hp": 120, "atk": 25, "def": 10, "xp": 60, "coin": 100, "drops": [{ "id": "daging_biasa", "chance": 50 }, { "id": "kulit_serigala", "chance": 50 }] },
+        { "id": "beruang", "nama": "🐻 Beruang Gua", "hp": 250, "atk": 40, "def": 20, "xp": 120, "coin": 250, "drops": [{ "id": "daging_babi", "chance": 70 }, { "id": "cakar_beruang", "chance": 30 }] }
+    ],
+    "3": [
+        { "id": "harimau", "nama": "🐯 Harimau Putih", "hp": 500, "atk": 85, "def": 35, "xp": 300, "coin": 500, "drops": [{ "id": "daging_babi", "chance": 50 }, { "id": "taring_harimau", "chance": 50 }] },
+        { "id": "griffin", "nama": "🪽 Griffin Langit", "hp": 1000, "atk": 150, "def": 60, "xp": 600, "coin": 1200, "drops": [{ "id": "sayap_griffin", "chance": 100 }] }
+    ],
+    "4": [
+        { "id": "kalajengking", "nama": "🦂 Kalajengking Raksasa", "hp": 2500, "atk": 250, "def": 120, "xp": 1000, "coin": 2000, "drops": [{ "id": "daging_kalajengking", "chance": 60 }, { "id": "capit_kalajengking", "chance": 40 }] }
+    ],
+    "5": [
+        { "id": "yeti", "nama": "🦍 Yeti Tundra", "hp": 6000, "atk": 450, "def": 250, "xp": 2500, "coin": 4500, "drops": [{ "id": "daging_yeti", "chance": 50 }, { "id": "bulu_yeti", "chance": 50 }] }
+    ],
+    "6": [
+        { "id": "salamander", "nama": "🦎 Salamander Api", "hp": 15000, "atk": 900, "def": 500, "xp": 5000, "coin": 10000, "drops": [{ "id": "daging_naga_kuno", "chance": 40 }, { "id": "sisik_salamander", "chance": 60 }] }
+    ],
+    "7": [
+        { "id": "golem_tulang", "nama": "💀 Golem Tulang Kuno", "hp": 35000, "atk": 1800, "def": 1200, "xp": 12000, "coin": 22000, "drops": [{ "id": "tulang_kuno", "chance": 100 }] }
+    ],
+    "8": [
+        { "id": "unicorn", "nama": "🦄 Unicorn Gila", "hp": 80000, "atk": 3500, "def": 2500, "xp": 25000, "coin": 45000, "drops": [{ "id": "kayu_peri", "chance": 100 }] }
+    ],
+    "9": [
+        { "id": "wyvern", "nama": "🐲 Wyvern Badai", "hp": 180000, "atk": 7500, "def": 5000, "xp": 60000, "coin": 100000, "drops": [{ "id": "sisik_wyvern", "chance": 100 }] }
+    ],
+    "10": [
+        { "id": "iblis", "nama": "😈 Lord Iblis Neraka", "hp": 450000, "atk": 15000, "def": 10000, "xp": 150000, "coin": 300000, "drops": [{ "id": "daging_iblis", "chance": 30 }, { "id": "tanduk_iblis", "chance": 70 }] },
+        { "id": "naga_gelap", "nama": "🐉 Naga Kegelapan Abadi", "hp": 800000, "atk": 25000, "def": 15000, "xp": 300000, "coin": 750000, "drops": [{ "id": "jantung_naga", "chance": 100 }] }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "1": [
+        { "id": "batu", "nama": "Tumpukan Batu Biasa", "drops": [{ "id": "batu_biasa", "chance": 70 }, { "id": "bijih_tembaga", "chance": 30 }] },
+        { "id": "besi", "nama": "Urat Bijih Besi", "drops": [{ "id": "batu_biasa", "chance": 40 }, { "id": "bijih_besi", "chance": 60 }] }
+    ],
+    "2": [
+        { "id": "perak", "nama": "Dinding Perak", "drops": [{ "id": "bijih_besi", "chance": 50 }, { "id": "perak", "chance": 50 }] },
+        { "id": "emas", "nama": "Kilauan Emas", "drops": [{ "id": "perak", "chance": 40 }, { "id": "bijih_emas", "chance": 60 }] }
+    ],
+    "3": [
+        { "id": "ruby", "nama": "Bongkahan Ruby", "drops": [{ "id": "bijih_emas", "chance": 50 }, { "id": "ruby", "chance": 50 }] },
+        { "id": "berlian", "nama": "Kristal Berlian", "drops": [{ "id": "batu_biasa", "chance": 80 }, { "id": "berlian", "chance": 20 }] }
+    ],
+    "4": [
+        { "id": "topaz", "nama": "Tambang Topaz Gurun", "drops": [{ "id": "batu_biasa", "chance": 60 }, { "id": "topaz", "chance": 40 }] }
+    ],
+    "5": [
+        { "id": "es", "nama": "Gua Es Abadi", "drops": [{ "id": "berlian", "chance": 30 }, { "id": "kristal_es", "chance": 70 }] }
+    ],
+    "6": [
+        { "id": "api", "nama": "Kawah Berapi", "drops": [{ "id": "kristal_es", "chance": 20 }, { "id": "batu_api", "chance": 80 }] }
+    ],
+    "7": [
+        { "id": "rune", "nama": "Reruntuhan Kuil", "drops": [{ "id": "batu_api", "chance": 40 }, { "id": "batu_rune", "chance": 60 }] }
+    ],
+    "8": [
+        { "id": "emerald", "nama": "Akar Pohon Dunia", "drops": [{ "id": "batu_rune", "chance": 50 }, { "id": "emerald", "chance": 50 }] }
+    ],
+    "9": [
+        { "id": "bintang", "nama": "Kawah Meteor Langit", "drops": [{ "id": "emerald", "chance": 30 }, { "id": "pecahan_bintang", "chance": 70 }] }
+    ],
+    "10": [
+        { "id": "gelap", "nama": "Inti Dimensi Neraka", "drops": [{ "id": "pecahan_bintang", "chance": 40 }, { "id": "materi_gelap", "chance": 60 }] }
+    ]
+}

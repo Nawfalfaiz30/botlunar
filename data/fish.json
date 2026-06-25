@@ -1,0 +1,33 @@
+{
+    "1": [
+        { "id": "teri", "nama": "Segerombolan Ikan Teri", "drops": [{ "id": "sepatu_bekas", "chance": 20 }, { "id": "ikan_teri", "chance": 80 }] },
+        { "id": "lele", "nama": "Ikan Lele Lumpur", "drops": [{ "id": "ikan_teri", "chance": 40 }, { "id": "ikan_lele", "chance": 60 }] }
+    ],
+    "2": [
+        { "id": "salmon", "nama": "Ikan Salmon Liar", "drops": [{ "id": "ikan_lele", "chance": 30 }, { "id": "ikan_salmon", "chance": 70 }] }
+    ],
+    "3": [
+        { "id": "hiu", "nama": "Bayangan Hiu Putih", "drops": [{ "id": "ikan_salmon", "chance": 50 }, { "id": "hiu_putih", "chance": 50 }] }
+    ],
+    "4": [
+        { "id": "pasir", "nama": "Pusaran Pasir Hisap", "drops": [{ "id": "sepatu_bekas", "chance": 40 }, { "id": "ikan_pasir", "chance": 60 }] }
+    ],
+    "5": [
+        { "id": "gurita", "nama": "Retakan Es Laut", "drops": [{ "id": "ikan_salmon", "chance": 40 }, { "id": "gurita_es", "chance": 60 }] }
+    ],
+    "6": [
+        { "id": "lava", "nama": "Sungai Magma Mendidih", "drops": [{ "id": "gurita_es", "chance": 30 }, { "id": "ikan_lava", "chance": 70 }] }
+    ],
+    "7": [
+        { "id": "hantu", "nama": "Sumur Kutukan", "drops": [{ "id": "ikan_lava", "chance": 20 }, { "id": "ikan_hantu", "chance": 80 }] }
+    ],
+    "8": [
+        { "id": "peri", "nama": "Mata Air Kehidupan", "drops": [{ "id": "ikan_hantu", "chance": 40 }, { "id": "peri_air", "chance": 60 }] }
+    ],
+    "9": [
+        { "id": "langit", "nama": "Lautan Awan Nimbus", "drops": [{ "id": "peri_air", "chance": 50 }, { "id": "pari_langit", "chance": 50 }] }
+    ],
+    "10": [
+        { "id": "leviathan", "nama": "Palung Darah Neraka", "drops": [{ "id": "pari_langit", "chance": 20 }, { "id": "leviathan", "chance": 80 }] }
+    ]
+}

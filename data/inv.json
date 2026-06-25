@@ -1,0 +1,226 @@
+{
+    "1": {
+        "nama": "VIP Pass",
+        "harga": 5000,
+        "ikon": "🎫",
+        "deskripsi": "VIP 24 Jam. Cooldown semua aktivitas -50%, gaji work +50%.",
+        "usable": true,
+        "type": "vip",
+        "duration": 86400000,
+        "modifier": {
+            "work_bonus": 50,
+            "cooldown_cut": 50
+        },
+        "msg": "🎫 VIP Pass Aktif! Gaji naik 50% dan cooldown berkurang separuh selama 24 Jam!"
+    },
+    "2": {
+        "nama": "Pancingan Kayu",
+        "harga": 500,
+        "ikon": "🎣",
+        "deskripsi": "Alat dasar yang wajib dimiliki untuk menggunakan fitur /fish.",
+        "usable": false,
+        "type": "equipment"
+    },
+    "3": {
+        "nama": "Pancingan Emas",
+        "harga": 1500,
+        "ikon": "🔱",
+        "deskripsi": "Pancingan dewa. Meningkatkan peluang mendapat ikan Rare dan Epic sebesar +20% (Pasif).",
+        "usable": false,
+        "type": "equipment",
+        "modifier": {
+            "rare_chance": 20
+        }
+    },
+    "4": {
+        "nama": "Umpan Cacing",
+        "harga": 100,
+        "ikon": "🪱",
+        "deskripsi": "Umpan biasa. Meningkatkan peluang ikan langka sebesar +5% selama 10 menit.",
+        "usable": true,
+        "type": "fish_boost",
+        "duration": 600000,
+        "modifier": {
+            "rare_chance": 5
+        },
+        "msg": "🪱 Umpan dipasang! Peluang ikan langka +5%."
+    },
+    "5": {
+        "nama": "Umpan Premium",
+        "harga": 500,
+        "ikon": "🍤",
+        "deskripsi": "Umpan kualitas tinggi. Peluang ikan langka +30% selama 15 menit.",
+        "usable": true,
+        "type": "fish_boost",
+        "duration": 900000,
+        "modifier": {
+            "rare_chance": 30
+        },
+        "msg": "🍤 Umpan premium dipasang! Peluang ikan langka +30%."
+    },
+    "6": {
+        "nama": "Kopi Susu",
+        "harga": 100,
+        "ikon": "☕",
+        "deskripsi": "Minuman penyemangat. Gaji /work meningkat +20% selama 30 menit.",
+        "usable": true,
+        "type": "work_boost",
+        "duration": 1800000,
+        "modifier": {
+            "work_bonus": 20
+        },
+        "msg": "☕ Ahhh mantap! Gaji /work kamu naik 20% selama 30 menit."
+    },
+    "7": {
+        "nama": "Energi Drink",
+        "harga": 300,
+        "ikon": "⚡",
+        "deskripsi": "Minuman energi. Memangkas semua waktu tunggu (cooldown) sebesar -30% selama 30 menit.",
+        "usable": true,
+        "type": "cooldown_reduce",
+        "duration": 1800000,
+        "modifier": {
+            "cooldown_cut": 30
+        },
+        "msg": "⚡ Ngebut! Cooldown work, fish, mine, dan hunt dikurangi 30%."
+    },
+    "8": {
+        "nama": "Ramuan Exp",
+        "harga": 1200,
+        "ikon": "🧪",
+        "deskripsi": "Meningkatkan perolehan XP chat sebesar +50% selama 1 jam.",
+        "usable": true,
+        "type": "xp_boost",
+        "duration": 3600000,
+        "modifier": {
+            "xp_bonus": 50
+        },
+        "msg": "🧪 Pikiranmu menjadi tajam! Mendapatkan XP tambahan +50% saat chatting."
+    },
+    "9": {
+        "nama": "Jimat Anti Rampok",
+        "harga": 2000,
+        "ikon": "🛡️",
+        "deskripsi": "Mencegah koinmu dicuri oleh command /rob selama 12 jam ke depan.",
+        "usable": true,
+        "type": "shield",
+        "duration": 43200000,
+        "modifier": {
+            "rob_protect": 100
+        },
+        "msg": "🛡️ Jimat diaktifkan! Koinmu aman dari pencuri selama 12 jam."
+    },
+    "10": {
+        "nama": "Tas Kecil",
+        "harga": 1000,
+        "ikon": "🎒",
+        "deskripsi": "Pasif: Meningkatkan batas penyimpanan inventory sebanyak +10 slot.",
+        "usable": false,
+        "type": "upgrade",
+        "modifier": {
+            "inv_slot": 10
+        }
+    },
+    "11": {
+        "nama": "Tas Besar",
+        "harga": 3000,
+        "ikon": "🧳",
+        "deskripsi": "Pasif: Meningkatkan batas penyimpanan inventory sebanyak +30 slot.",
+        "usable": false,
+        "type": "upgrade",
+        "modifier": {
+            "inv_slot": 30
+        }
+    },
+    "12": {
+        "nama": "Pickaxe Kayu",
+        "harga": 750,
+        "ikon": "⛏️",
+        "deskripsi": "Alat dasar untuk command /mine.",
+        "usable": false,
+        "type": "equipment"
+    },
+    "13": {
+        "nama": "Pickaxe Besi",
+        "harga": 2500,
+        "ikon": "🔨",
+        "deskripsi": "Alat tambang kokoh. Meningkatkan peluang mendapat Berlian dan Emas +15% (Pasif).",
+        "usable": false,
+        "type": "equipment",
+        "modifier": {
+            "rare_chance": 15
+        }
+    },
+    "14": {
+        "nama": "Panah Kayu",
+        "harga": 1000,
+        "ikon": "🏹",
+        "deskripsi": "Alat dasar untuk menggunakan command /hunt.",
+        "usable": false,
+        "type": "equipment"
+    },
+    "15": {
+        "nama": "Senapan Berburu",
+        "harga": 4000,
+        "ikon": "🔫",
+        "deskripsi": "Senjata ampuh. Peluang mendapat hewan buas/langka +25% (Pasif).",
+        "usable": false,
+        "type": "equipment",
+        "modifier": {
+            "rare_chance": 25
+        }
+    },
+    "16": {
+        "nama": "Perahu Nelayan",
+        "harga": 8000,
+        "ikon": "🚤",
+        "deskripsi": "Pasif: Setiap kali memancing (/fish), kamu mendapat 2 ikan sekaligus.",
+        "usable": false,
+        "type": "equipment",
+        "modifier": {
+            "extra_drop": 1
+        }
+    },
+    "17": {
+        "nama": "Peti Misterius",
+        "harga": 2500,
+        "ikon": "📦",
+        "deskripsi": "Gacha Box! Gunakan untuk mendapatkan item, alat, atau koin acak.",
+        "usable": true,
+        "type": "gacha_box",
+        "duration": 0,
+        "msg": "📦 Membuka peti misterius..."
+    },
+    "18": {
+        "nama": "Lucky Charm",
+        "harga": 6000,
+        "ikon": "🍀",
+        "deskripsi": "Meningkatkan perolehan koin secara acak sebesar +10% hingga +30% dari semua command selama 1 Jam.",
+        "usable": true,
+        "type": "luck_boost",
+        "duration": 3600000,
+        "modifier": {
+            "koin_multiplier_min": 10,
+            "koin_multiplier_max": 30
+        },
+        "msg": "🍀 Dewi Fortuna tersenyum padamu! Semua penghasilan koin meningkat selama 1 Jam."
+    },
+    "19": {
+        "nama": "Golden Ticket",
+        "harga": 15000,
+        "ikon": "🎟️",
+        "deskripsi": "Gunakan untuk menukar dengan hadiah sangat langka (Epic Gacha).",
+        "usable": true,
+        "type": "gacha_premium",
+        "duration": 0,
+        "msg": "🎟️ Menukarkan tiket emas..."
+    },
+    "20": {
+        "nama": "Mahkota Lunar",
+        "harga": 100000,
+        "ikon": "👑",
+        "deskripsi": "Item koleksi murni. Membuktikan kamu adalah orang terkaya di server.",
+        "usable": false,
+        "type": "collectible"
+    }
+}   

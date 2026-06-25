@@ -1,0 +1,50 @@
+bot-lunar/
+├── .env
+├── package.json
+├── index.js
+├── commands/
+│   ├── admin/             
+│   │   ├── rules.js, pengumuman.js, purge.js, warn.js, warnings.js
+│   │   ├── kick.js, ban.js, timeout.js, untimeout.js, ticket.js, giveaway.js
+│   │   ├── lock.js, unlock.js, addrole.js, removerole.js, setup.js
+│   │   └── automod.js     # FITUR BARU: Mengatur filter kata kasar otomatis
+│   ├── economy/           
+│   │   ├── rank.js, leaderboard.js, profile.js, daily.js, work.js, use.js
+│   │   └── fish.js, rob.js, shop.js, inventory.js, pay.js, slots.js
+│   ├── anime/             
+│   │   └── anime.js, manga.js, waifu.js, quote.js, animeNews.js, episodeTracker.js
+│   ├── fun/               
+│   │   ├── ai.js, trivia.js, guessanime.js, rps.js, meme.js, ship.js, interact.js
+│   │   └── imagine.js     # FITUR BARU: Generate gambar via AI
+│   ├── gaming/            # KATEGORI BARU: Statistik Game
+│   │   ├── valorant.js    # Cek rank & stat Valorant
+│   │   ├── genshin.js     # Cek stat Genshin Impact
+│   │   ├── osu.js         # Cek profil Osu!
+│   │   └── steam.js       # Cari info game Steam
+│   ├── music/             
+│   │   └── play.js, skip.js, stop.js, queue.js, volume.js
+│   ├── security/          # KATEGORI BARU: Keamanan Server
+│   │   ├── verify.js      # Sistem captcha untuk role member
+│   │   ├── antilink.js    # Blokir link berbahaya/invite server lain
+│   │   └── antispam.js    # Mute otomatis jika spam
+│   ├── voice/             # KATEGORI BARU: Temp Voice Channel
+│   │   ├── vcsetup.js     # Admin setup master voice channel
+│   │   ├── vclimit.js     # Pemilik temp VC membatasi jumlah orang
+│   │   └── vckick.js      # Pemilik temp VC menendang orang dari roomnya
+│   └── utility/           
+│       ├── ping.js, help.js, info.js, userinfo.js, serverinfo.js, avatar.js
+│       ├── afk.js, remindme.js, poll.js, rekomen.js, 
+│       ├── birthday.js    # FITUR BARU: Atur dan lihat ultah member
+│       └── translate.js   # FITUR BARU: Translate bahasa
+├── helpers/
+│   ├── embed.js, staff.js, utils.js, aiHelper.js, economyHelper.js, musicHelper.js
+│   ├── gamingHelper.js    # FITUR BARU: Fetch API game
+│   └── voiceHelper.js     # FITUR BARU: Logic untuk buat/hapus temp VC
+├── data/
+│   ├── users.json, collection.json, guild.json, warns.json
+│   ├── security.json      # FITUR BARU: Simpan setting keamanan server
+│   └── birthdays.json     # FITUR BARU: Database ulang tahun
+└── events/
+    ├── ready.js, messageCreate.js, interactionCreate.js, reactionAdd.js
+    ├── guildMemberAdd.js, guildMemberRemove.js, messageDelete.js, messageUpdate.js
+    └── voiceStateUpdate.js # FITUR BARU: Trigger untuk temp VC & Voice XP

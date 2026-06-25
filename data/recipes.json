@@ -1,0 +1,58 @@
+{
+    "cook_sup_hangat": {
+        "bahan": { "🥩 Daging Biasa": 2, "🪨 Batu Biasa": 1 },
+        "hasil": "🥣 Sup Hangat Desa"
+    },
+    "cook_lele_crispy": {
+        "bahan": { "🐟 Ikan Lele": 1, "🪵 Kayu Biasa": 1 },
+        "hasil": "🐟 Lele Goreng Krispi"
+    },
+    "cook_babi_rempah": {
+        "bahan": { "🥓 Daging Babi Hutan": 2, "🌵 Serat Kaktus": 1 },
+        "hasil": "🥓 Steak Babi Rempah"
+    },
+    "cook_salmon_madu": {
+        "bahan": { "🍣 Ikan Salmon": 2, "🎄 Kayu Cemara": 1 },
+        "hasil": "🍣 Salmon Bakar Madu"
+    },
+    "cook_kalajengking_pedas": {
+        "bahan": { "🦂 Daging Kalajengking": 1, "🔥 Batu Api Neraka": 1 },
+        "hasil": "🦂 Kalajengking Sambal Neraka"
+    },
+    "cook_yeti_steak": {
+        "bahan": { "🍖 Daging Yeti": 1, "🧊 Kristal Es Abadi": 1 },
+        "hasil": "🍖 Steak Yeti Salju"
+    },
+    "cook_gurita_lemon": {
+        "bahan": { "🦑 Gurita Es": 1, "🧊 Kristal Es Abadi": 1 },
+        "hasil": "🦑 Gurita Es Saus Lemon"
+    },
+    "cook_hiu_bakar": {
+        "bahan": { "🦈 Hiu Putih": 1, "⚙️ Bijih Besi": 1 },
+        "hasil": "🦈 Hiu Bakar Arang"
+    },
+    "cook_naga_kerajaan": {
+        "bahan": { "🥩 Daging Naga Kuno": 1, "🐉 Jantung Naga": 1 },
+        "hasil": "🥩 Daging Naga Panggang Kerajaan"
+    },
+    "cook_sup_arwah": {
+        "bahan": { "👻 Ikan Hantu": 2, "🦴 Tulang Kuno": 1 },
+        "hasil": "👻 Sup Arwah Ikan Hantu"
+    },
+    "cook_peri_glory": {
+        "bahan": { "🧚 Peri Air": 1, "🌳 Kayu Peri": 1 },
+        "hasil": "🧚 Hidangan Glory Peri"
+    },
+    "cook_iblis_delight": {
+        "bahan": { "🍗 Daging Iblis": 1, "😈 Tanduk Iblis": 1 },
+        "hasil": "🍗 Daging Iblis Saus Darah"
+    },
+    "cook_pari_langit": {
+        "bahan": { "☁️ Pari Langit": 1, "☁️ Kayu Langit": 1 },
+        "hasil": "☁️ Pari Langit Kukus Awan"
+    },
+    "cook_leviathan_feast": {
+        "bahan": { "🐉 Leviathan": 1, "🌌 Materi Gelap": 1 },
+        "hasil": "🐉 Pesta Raja Leviathan"
+    }
+}

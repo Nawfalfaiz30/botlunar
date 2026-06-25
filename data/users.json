@@ -1,0 +1,27 @@
+{
+    "676785487825862667": {
+        "xp": 94,
+        "level": 3,
+        "koin": 3285,
+        "inventory": [
+            "🦌 Tanduk Rusa",
+            "🪵 Kayu Biasa"
+        ],
+        "area": 1,
+        "stats": {
+            "hp": 120,
+            "maxHp": 120,
+            "attack": 26,
+            "defense": 7
+        },
+        "gear": {
+            "weapon": "Panah Kayu",
+            "armor": null,
+            "pancing": null,
+            "pickaxe": null,
+            "kapak": "Kapak Kayu"
+        },
+        "lastHunt": 1782382468989,
+        "lastChop": 1782382524650
+    }
+}
